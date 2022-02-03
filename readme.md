@@ -33,3 +33,15 @@ pm2 monit
 ```
 
 pm2 has ability to restart the app or process if they fail
+
+# Worker threads
+
+it is in experimental feature so have caution
+
+webworker-threads --> NPM Package
+
+The takes delegation of CPU intensive tasks.
+
+postMessage --> Throws a message to start a worker
+
+onmessage--> listen the message for the worker thread
